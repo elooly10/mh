@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components {
+    .btn-base {
+        @apply inline-block cursor-pointer rounded-md text-center font-medium transition-all duration-150;
+    }
+    .btn-normal {
+        @apply btn-base outline-none p-3 text-white
+    }
+    .btn {
+        @apply btn-normal bg-teal-700 hover:bg-teal-800 active:bg-teal-900 focus:bg-teal-800;
+    }
+    .btn-blue {
+        @apply btn-normal bg-sky-700 hover:bg-sky-800 active:bg-sky-900 focus:bg-sky-800;
+    }
+}
