@@ -89,7 +89,7 @@
 				>
 				<button
 					on:click={() => signIn()}
-					class="p-2 w-full rounded bg-epsilon-700 font-bold text-white hover:bg-epsilon-800 focus:bg-epsilon-800 active:bg-epsilon-800"
+					class="btn"
 					>Sign In</button
 				>
 				<div class="flex justify-between items-center">

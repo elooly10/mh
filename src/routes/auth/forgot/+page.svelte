@@ -69,7 +69,7 @@
 				>
 				<button
 					on:click={() => sendEmail()}
-					class="p-2 w-full rounded bg-epsilon-700 font-bold text-white hover:bg-epsilon-800 focus:bg-epsilon-800 active:bg-epsilon-800"
+					class="btn"
 					>Reset Password</button
 				>
 				<a class="link link-gray text-md" href="/auth/signUp">Need an account?</a>
