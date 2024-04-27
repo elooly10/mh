@@ -1,7 +1,7 @@
 # mh
 A simple Sveltekit/Firebase project that generates a storefront, ideal for a wish-list
 ## Setup
-1. Fork this repo
+1. Use this template
 2. Set up a firebase cloud firestore project
 3. Create a *.env* file using *sample.env*
 4. Run `npm install`
